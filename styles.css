@@ -1,0 +1,111 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#header {
+    background-color: #0a61cc; /*font-family: 'Montserrat', sans-serif; */
+    height: 4em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+#logo {
+    height: 3em;
+}
+#cntainer {
+    background-color: #cccccc;
+    padding: 7em 6em 12em;
+}
+.section {
+    overflow: hidden;
+    border-radius: 1em;
+    background-color: white;
+    padding: 1em;
+}
+#informacion {
+    height: 14em;
+    display: flex;
+}
+#cpic {
+    width: 25%;
+    padding: 1em;
+    
+}
+#pic {
+    width: 10em;
+    border-radius: 50%;
+    border: solid white 3px;
+    outline: solid 3px #0a61cc;
+    
+}
+#pic:hover{
+    outline: solid 0px #0a61cc;
+    box-shadow: 0px 0px 4px 5px #0a61cc;
+}
+#pic2 {
+    width: 100%;
+    border-radius: 1em;
+}
+#txt {
+    width: 75%;
+    padding: 1.5% 0 2% 3%;
+    
+}
+#father {
+    margin: 1em 0;
+    display: flex;
+}
+#publicacion {
+    width: 60%;
+}
+#like {
+    height: 5em;
+    padding: 1em;
+}
+#sobremi {
+    width: 40%;
+    margin: 0 0 0 1em;
+    height: 100%;
+}
+.f1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.f2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.f3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+}
+.f4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+input {
+    border-radius: 0.5em;
+}
+#user {
+    background-color: #b1cdf0;
+    color: #0a61cc;
+}
+.btn1 {
+    
+    background-color: #0a61cc;
+    color: white;
+}
+.btn2 {
+    
+    background-color: #cccccc;
+    color: #0a61cc;
+}
+#follow {
+    top: 9em;
+}
+#btnlike {
+    position: relative;
+    top: 1.5em;
+}
